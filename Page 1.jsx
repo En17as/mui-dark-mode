@@ -4,7 +4,6 @@ import { IconButton, useTheme } from "@mui/material";
 import { DarkModeOutlined, LightModeOutlined } from "@mui/icons-material";
 
 
-
 const Home = () => {
   const colorMode = useContext(ColorModeContext);
   const theme = useTheme();
